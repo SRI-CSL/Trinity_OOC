@@ -6,7 +6,7 @@ This paper presents an approach for detecting out-of-context (OOC) objects in im
 
 ## Download COCO-OOC dataset
 The bounding boxes  used in the dataset are derived from COCO dataset which can be downloaded from [COCO train/val annotations](https://cocodataset.org/#download).
-Please, download the images and OOC annotations using [this link](https://drive.google.com/file/d/19eePaTTdEnxHZtsTPDC7IdR6CXWyrFCd/view?usp=sharing). The zipped file contains npy files and corresponding jpeg images. The json entries in the dataset contains the following fields:
+Please, download the images and OOC annotations using [this link](https://zenodo.org/records/10913707). The zipped file contains npy files and corresponding jpeg images. The json entries in the dataset contains the following fields:
 ```
 annotation = {}
 annotation['original_ann_ids'] = ann_ids # COCO annotation ids
